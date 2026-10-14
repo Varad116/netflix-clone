@@ -5,6 +5,9 @@
 
 .main{
     background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px ,100vw);
+    background-repeat: no-repeat;
     height: 80vh;
     position: relative;
 }
@@ -16,4 +19,13 @@
     background-color: black;
     position: absolute;
     top: 0;
+}
+
+nav {
+    max-width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
 }
