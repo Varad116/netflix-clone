@@ -3,22 +3,26 @@
     padding: 0;
 }
 
+body{
+    background-color: black;
+}
+
 .main{
     background-image: url("assets/images/bg.jpg");
     background-position: center center;
     background-size: max(1200px ,100vw);
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 70vh;
     position: relative;
 }
 
 .main .box{
-    height: 80vh;
+    height: 70vh;
     width: 100%;
-    opacity: 0.44;
-    background-color: black;
+    opacity: 0.65;
     position: absolute;
     top: 0;
+    background-color: black;
 }
 
 nav {
@@ -28,4 +32,77 @@ nav {
     display: flex;
     align-items: center;
     height: 62px;
+}
+
+nav img {
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    font-family: consolas;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1){
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.seperation {
+    height: 6px;
+    background-color: rgb(60, 60, 60);
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.main input{
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color:rgba(23, 23, 23, 0.2);
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
 }
