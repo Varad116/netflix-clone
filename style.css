@@ -87,7 +87,7 @@ nav button{
     color: white;
     background-color: rgba(246, 240, 240, 0.026);
     border: 1px solid white;
-    broder-radius: 4px;
+    border-radius: 4px;
     cursor: pointer;
 }
 
