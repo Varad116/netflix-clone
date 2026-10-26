@@ -84,7 +84,11 @@ nav button{
 .btn {
     padding: 3px 8px;
     font-weight: bold;
-    background-color: white;
+    color: white;
+    background-color: rgba(246, 240, 240, 0.026);
+    border: 1px solid white;
+    broder-radius: 4px;
+    cursor: pointer;
 }
 
 .btn-red {
@@ -95,14 +99,65 @@ nav button{
     border-radius: 4px;
 }
 
+.hero-buttons{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
 .main input{
-    padding: 3px 24px;
-    font-size: 20px;
+    padding: 7px 101px 8px 14px;
+    font-weight: 900;
+    font-size: 12px;
     border-radius: 4px;
-    background-color:rgba(23, 23, 23, 0.2);
+    color: white;
+    background-color:rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(220, 212, 212, 0.5);
 }
 
 .btn-red-sm {
     background-color: red;
     color: white;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+
+.secimg {
+    position: relative;
+}
+
+.secimg img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
 }
