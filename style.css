@@ -291,3 +291,15 @@ footer .questions {
     flex-direction: column;
     gap: 23px;
 }
+
+@media screen and (max-width: 550px) {
+    .secimg img {
+        width: 320px;
+    }
+
+    .secimg video {
+        position: absolute;
+        width: 305px;
+        top: 75px;
+     }
+    }
